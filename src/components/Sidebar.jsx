@@ -5,8 +5,6 @@ const SidebarContainer = styled.div`
   height: 98vh;
   border: 1px solid black;
   position: relative;
-  box-shadow: 5px 10px black;
-
 `;
 
 const CloseButton = styled.button`

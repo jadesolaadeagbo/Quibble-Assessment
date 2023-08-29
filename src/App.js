@@ -21,7 +21,7 @@ const AppContainer = styled.div`
 
 const MainWrapper = styled.div`
   background-color: #b1daf6;
-  height: 100vh;
+  height: 98vh;
   width: 100%;
   position: relative;
 `;
