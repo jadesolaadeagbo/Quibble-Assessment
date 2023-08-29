@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 
 const SidebarContainer = styled.div`
-  height: 100vh;
+  height: 98vh;
   border: 1px solid black;
   position: relative;
+  box-shadow: 5px 10px black;
 
 `;
 
