@@ -5,24 +5,27 @@ const SidebarContainer = styled.div`
   height: 100vh;
   border: 1px solid black;
   position: relative;
+  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.1);
 `;
 
 const CloseButton = styled.button`
   background-color: #bba9a9;
   padding: 8px 80px;
-  font-weight: 600;
   border-radius: 3rem;
   position: absolute;
-  top: 10px;
+  top: 2rem;
   left: 15%;
   font-size: 18px;
+  border:none;
+  cursor:pointer;
+  font-weight:500;
 `;
 
 const ContentWrapper = styled.div`
   display: flex;
   align-items: ${props => props.align};
   height: 100vh;
-  padding-top: ${props => (props.padTop ? '60px' : '0')};
+  padding-top: ${props => (props.padTop ? '25%' : '0')};
   transition: align-items 0.3s ease-in-out, padding-top 0.3s ease-in-out;
 `;
 
@@ -31,23 +34,28 @@ const ButtonGroup = styled.div`
   flex-direction: column;
   padding: 0 10px;
   gap:10px;
+  font-weight:500;
 `;
 
 const SidebarButton = styled.button`
   background-color: #42c3e3;
   padding: 8px 120px;
-  font-weight: 600;
   white-space: nowrap;
   font-size: 18px;
+  border:none;
+  cursor:pointer;
+  font-weight:500;
 `;
 
 const OpenButton = styled.button`
   background-color: #bba9a9;
   padding: 1.5rem 1rem;
-  font-weight: 600;
-  border-radius: 60px;
+  border-radius: 100%;
   white-space: nowrap;
   margin: 5px 5px 0px 5px;
+  border:none;
+  cursor:pointer;
+  font-weight:500;
 `;
 
 const Sidebar = ({align, padTop}) => {
