@@ -5,7 +5,7 @@ const SidebarContainer = styled.div`
   height: 100vh;
   border: 1px solid black;
   position: relative;
-  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.1);
+
 `;
 
 const CloseButton = styled.button`
@@ -18,7 +18,7 @@ const CloseButton = styled.button`
   font-size: 18px;
   border:none;
   cursor:pointer;
-  font-weight:500;
+  font-weight:600;
 `;
 
 const ContentWrapper = styled.div`
@@ -34,7 +34,7 @@ const ButtonGroup = styled.div`
   flex-direction: column;
   padding: 0 10px;
   gap:10px;
-  font-weight:500;
+  font-weight:600;
 `;
 
 const SidebarButton = styled.button`
@@ -44,18 +44,19 @@ const SidebarButton = styled.button`
   font-size: 18px;
   border:none;
   cursor:pointer;
-  font-weight:500;
+  font-weight:600;
 `;
 
 const OpenButton = styled.button`
   background-color: #bba9a9;
-  padding: 1.5rem 1rem;
+  padding: 24px 12px;
   border-radius: 100%;
   white-space: nowrap;
   margin: 5px 5px 0px 5px;
   border:none;
   cursor:pointer;
-  font-weight:500;
+  font-weight:600;
+  font-size:18px;
 `;
 
 const Sidebar = ({align, padTop}) => {

@@ -7,8 +7,9 @@ const GlobalStyles = createGlobalStyle`
   body {
     font-family: 'Google Sans', sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     overflow:hidden;
+    font-weight:500;
 
   }
 `;
@@ -28,7 +29,7 @@ const MainWrapper = styled.div`
 const ResetButton = styled.button`
   background-color: #bba9a9;
   padding: 0.5rem 5rem;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: 3rem;
   margin-top: 2rem;
   position: absolute;
@@ -62,7 +63,7 @@ const ShiftButtonsContainer = styled.span`
 const ShiftButton = styled.button`
   background-color: #bba9a9;
   padding: 10px 4rem;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
   cursor:pointer;
   border:none;
