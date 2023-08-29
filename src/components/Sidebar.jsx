@@ -14,7 +14,7 @@ const CloseButton = styled.button`
   border-radius: 3rem;
   position: absolute;
   top: 10px;
-  left: 11%;
+  left: 15%;
   font-size: 18px;
 `;
 
