@@ -23,7 +23,7 @@ const CloseButton = styled.button`
 const ContentWrapper = styled.div`
   display: flex;
   align-items: ${props => props.align};
-  height: 100vh;
+  height: 98vh;
   padding-top: ${props => (props.padTop ? '25%' : '0')};
   transition: align-items 0.3s ease-in-out, padding-top 0.3s ease-in-out;
 `;
