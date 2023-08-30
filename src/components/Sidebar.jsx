@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
+
+// Styling using styled components
 const SidebarContainer = styled.div`
   height: 98vh;
   border: 1px solid black;
@@ -64,6 +66,7 @@ const Sidebar = ({align, padTop}) => {
   return (
     <div>
       <SidebarContainer>
+{/*         Opens the sidebar and Shows the "close" button when the open button is clicked  */}
         {isOpen ? (
           <div>
             <CloseButton onClick={() => setIsOpen(!isOpen)}>CLOSE</CloseButton>
@@ -78,6 +81,7 @@ const Sidebar = ({align, padTop}) => {
             </ContentWrapper>
           </div>
         ) : (
+          // Shows the open button in the default state i.e when the side bar is not opened
           <OpenButton onClick={() => setIsOpen(!isOpen)}>OPEN</OpenButton>
         )}
       </SidebarContainer>
