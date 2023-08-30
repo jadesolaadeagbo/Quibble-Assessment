@@ -3,6 +3,8 @@ import Sidebar from './components/Sidebar';
 import styled from 'styled-components';
 import { createGlobalStyle } from 'styled-components';
 
+
+// Styling using styled components
 const GlobalStyles = createGlobalStyle`
   body {
     font-family: 'Google Sans', sans-serif;
@@ -94,7 +96,9 @@ const App = () => {
       <AppContainer>
         <Sidebar align={alignment} padTop={padTop}/>
         <MainWrapper>
+          // Reset button
           <ResetButton onClick={handleReset}>RESET</ResetButton>
+          // Instructions container
           <InstructionContainer>
             <div>
               <InstructionText>Click "OPEN" and "CLOSE" to navigate sidebar</InstructionText>
@@ -104,6 +108,7 @@ const App = () => {
               <InstructionText>resolution: 1920 x 1080, font-sizes: button: 18px instructions: 24px</InstructionText>
               <InstructionText>note: these instruction texts should be included in the program</InstructionText>
 
+              // Shift buttons
               <ShiftButtonsContainer>
                 <ShiftButton onClick={handleShiftUp}>SHIFT UP</ShiftButton>
                 <ShiftButton onClick={handleShiftDown}>SHIFT DOWN</ShiftButton>
