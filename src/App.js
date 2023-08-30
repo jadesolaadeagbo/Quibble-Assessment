@@ -43,7 +43,7 @@ const InstructionContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 98vh;
 `;
 
 const InstructionText = styled.p`
